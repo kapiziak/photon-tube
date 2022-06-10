@@ -1,0 +1,1 @@
+export const ApiUrl = 'https://photon-recruitment-app.herokuapp.com/api';
