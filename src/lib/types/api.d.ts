@@ -1,0 +1,15 @@
+type ApiEndpoints = {
+    [key: string]: string;
+};
+
+type IStrapiResponseSchema<T> = {
+    data: T;
+    meta?: {
+        pagination: {
+            page: number;
+            pageSize: number;
+            pageCount: number;
+            total: number;
+        };
+    };
+};
